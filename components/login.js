@@ -44,7 +44,7 @@ export default class Login extends Component {
                             placeholder="Username"
                         />
                         <TextInput style={styles.input}
-                            onChangeText={text => onChangeText(text)}
+                            onChangeText={text => onChangePassword(text)}
                             placeholder="Password"
                         />
                         <TouchableOpacity onPress={this.handlPress}
